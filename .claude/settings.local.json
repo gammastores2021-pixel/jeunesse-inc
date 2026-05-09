@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"D:\\\\AI Hybird E-Commarce JEUNESSE\\\\Jeunese-inc\")",
+      "Bash(Select-Object -First 50)",
+      "Bash(command -v magick)",
+      "Bash(command -v convert)",
+      "Bash(command -v inkscape)",
+      "Bash(command -v gs)",
+      "Bash(command -v pdftoppm)",
+      "Bash(npm install *)",
+      "Bash(curl -fsSL -o public/images/home-hero-001.png \"https://d8j0ntlcm91z4.cloudfront.net/user_3AxXViXDu7oZEgPgOLNsNNe310E/hf_20260509_113031_d50f0d68-5c59-4032-a97d-4ad107cc7c46.png\")",
+      "Bash(curl -fsSL --ssl-no-revoke -o public/images/home-hero-001.png \"https://d8j0ntlcm91z4.cloudfront.net/user_3AxXViXDu7oZEgPgOLNsNNe310E/hf_20260509_113031_d50f0d68-5c59-4032-a97d-4ad107cc7c46.png\")",
+      "Bash(curl -fsSL --ssl-no-revoke -o public/images/home-hero-001.webp \"https://d8j0ntlcm91z4.cloudfront.net/user_3AxXViXDu7oZEgPgOLNsNNe310E/hf_20260509_113031_d50f0d68-5c59-4032-a97d-4ad107cc7c46_min.webp\")",
+      "Bash(curl -fsSL --ssl-no-revoke -o public/images/service-ai-banner.webp __TRACKED_VAR__/hf_20260509_113635_6fb85f1b-ec49-460e-9027-6c40e998f39c_min.webp)",
+      "Bash(curl -fsSL --ssl-no-revoke -o public/images/service-mkt-banner.webp __TRACKED_VAR__/hf_20260509_113640_f3f9484a-7ff9-4e9b-85bd-2eb3beb0f882_min.webp)",
+      "Bash(curl -fsSL --ssl-no-revoke -o public/images/service-brand-banner.webp __TRACKED_VAR__/hf_20260509_113645_25a74275-6b5b-4ae5-a315-25815e2a7e72_min.webp)",
+      "Bash(curl -fsSL --ssl-no-revoke -o public/images/service-affiliate-banner.webp __TRACKED_VAR__/hf_20260509_113650_8d19eb99-b387-4b69-a47c-2a6713ab09d4_min.webp)",
+      "Bash(curl -fsSL --ssl-no-revoke -o public/images/industry-retail.webp __TRACKED_VAR__/hf_20260509_113655_12be4076-cfae-4d93-b3dc-e862cbacd9d0_min.webp)",
+      "Bash(curl -fsSL --ssl-no-revoke -o public/videos/home-hero-loop.mp4 __TRACKED_VAR__/hf_20260509_114134_96349ac8-b849-439c-a2cf-5c8594919345.mp4)",
+      "Bash(curl -fsSL --ssl-no-revoke -o public/videos/service-ai-reel.mp4 __TRACKED_VAR__/hf_20260509_114140_154d9e78-71ac-4db5-8323-bf57444ec5a7.mp4)",
+      "Bash(curl -fsSL --ssl-no-revoke -o public/videos/service-mkt-reel.mp4 __TRACKED_VAR__/hf_20260509_114147_af8ae08c-309d-480e-9667-0ff3139c4613.mp4)",
+      "Bash(curl -fsSL --ssl-no-revoke -o public/videos/process-reel.mp4 __TRACKED_VAR__/hf_20260509_114153_52c6ff30-a2f8-4d2b-9282-f56eca2b3652.mp4)",
+      "Bash(curl -fsSL --ssl-no-revoke -o public/videos/service-affiliate-reel.mp4 __TRACKED_VAR__/hf_20260509_114204_d4489420-778d-4a5e-b727-082710f04e99.mp4)",
+      "Bash(curl -fsSL --ssl-no-revoke -o public/images/industry-healthcare.webp __TRACKED_VAR__/hf_20260509_121038_653381f2-d5f5-4bed-a50a-2f1b74830c1b_min.webp)",
+      "Bash(curl -fsSL --ssl-no-revoke -o public/images/industry-saas.webp __TRACKED_VAR__/hf_20260509_121044_1e4afc48-ffed-4c07-94aa-58bcae5dee11_min.webp)",
+      "Bash(node node_modules/typescript/bin/tsc --noEmit)",
+      "Bash(npx next *)"
+    ]
+  }
+}

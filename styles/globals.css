@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-ar: "IBM Plex Sans Arabic", system-ui, sans-serif;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-family: var(--font-sans);
+}
+
+html[dir="rtl"] {
+  font-family: var(--font-ar);
+}
+
+body {
+  background-color: #F7F6F2;
+  color: #0A0A0A;
+  font-family: var(--font-sans);
+}
+
+html[dir="rtl"] body {
+  font-family: var(--font-ar);
+}
+
+@layer base {
+  h1, h2, h3, h4 { font-family: var(--font-display); letter-spacing: -0.01em; }
+  html[dir="rtl"] h1,
+  html[dir="rtl"] h2,
+  html[dir="rtl"] h3,
+  html[dir="rtl"] h4 { font-family: var(--font-ar); letter-spacing: 0; }
+
+  ::selection { background: #0B1F3A; color: #F7F6F2; }
+
+  :focus-visible {
+    outline: 2px solid #C9A35B;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  a { text-underline-offset: 3px; }
+}
+
+@layer components {
+  .container-tight { @apply max-w-[68rem] mx-auto px-5 lg:px-8; }
+  .container-wide  { @apply max-w-[78rem] mx-auto px-5 lg:px-8; }
+  .eyebrow {
+    @apply inline-flex items-center text-xs uppercase tracking-[0.18em] text-mute font-medium;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-5 py-3 text-sm font-medium
+           transition-[transform,background-color,color,border-color] duration-200 ease-editorial
+           focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2
+           focus-visible:ring-offset-surface;
+  }
+  .btn-primary { @apply bg-primary text-surface hover:bg-primary-700 active:translate-y-px; }
+  .btn-secondary { @apply bg-accent text-primary hover:bg-accent-600 active:translate-y-px; }
+  .btn-ghost { @apply bg-transparent text-primary border border-border hover:border-primary; }
+  .card {
+    @apply rounded-lg border border-border bg-white shadow-soft p-6 lg:p-8 transition-shadow
+           hover:shadow-[0_2px_4px_rgba(11,31,58,.08),0_16px_40px_rgba(11,31,58,.10)];
+  }
+  .input, .textarea, .select {
+    @apply block w-full rounded-md border border-border bg-white px-4 py-3 text-sm text-ink
+           placeholder:text-mute focus:outline-none focus:border-primary focus:ring-2
+           focus:ring-accent/40 transition-colors;
+  }
+  .label {
+    @apply block text-sm font-medium text-primary mb-1.5;
+  }
+  .hairline { @apply border-t border-border; }
+
+  .section { @apply py-16 lg:py-24; }
+  .section-tight { @apply py-12 lg:py-16; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* RTL spacing helpers */
+html[dir="rtl"] .rtl-flip { transform: scaleX(-1); }
