@@ -25,9 +25,12 @@ export function middleware(req: NextRequest) {
   if (exempt.some((p) => pathname.startsWith(p))) return NextResponse.next();
 
   const locale = pickLocale(req);
-  const url = req.nextUrl.clone();
-  url.pathname = `/${locale}${pathname === "/" ? "" : pathname}`;
-  return NextResponse.redirect(url);
+  const newPath = `/${locale}${pathname === "/" ? "" : pathname}`;
+
+  const forwardedHost = req.headers.get("x-forwarded-host") ?? req.headers.get("host");
+  const forwardedProto = req.headers.get("x-forwarded-proto") ?? req.nextUrl.protocol.replace(":", "");
+  const base = forwardedHost ? `${forwardedProto}://${forwardedHost}` : req.nextUrl.origin;
+  return NextResponse.redirect(new URL(newPath + req.nextUrl.search, base));
 }
 
 export const config = {
