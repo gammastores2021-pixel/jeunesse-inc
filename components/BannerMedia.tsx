@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
 type Props = {
@@ -11,20 +10,23 @@ type Props = {
   priority?: boolean;
 };
 
+const RATIO_DIMS: Record<NonNullable<Props["ratio"]>, { w: number; h: number; cls: string }> = {
+  "16:9": { w: 1600, h: 900, cls: "aspect-video" },
+  "21:9": { w: 1600, h: 686, cls: "aspect-[21/9]" },
+  "4:3": { w: 1600, h: 1200, cls: "aspect-[4/3]" }
+};
+
 export default function BannerMedia({ image, video, alt, ratio = "16:9", priority }: Props) {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const containerRef = useRef<HTMLDivElement | null>(null);
   const [shouldRenderVideo, setShouldRenderVideo] = useState(false);
 
   useEffect(() => {
-    if (!video) return;
-    if (typeof window === "undefined") return;
+    if (!video || typeof window === "undefined") return;
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (reduce) return;
-
     const el = containerRef.current;
     if (!el) return;
-
     const io = new IntersectionObserver(
       (entries) => {
         for (const entry of entries) {
@@ -42,21 +44,23 @@ export default function BannerMedia({ image, video, alt, ratio = "16:9", priorit
     return () => io.disconnect();
   }, [video]);
 
-  const aspect =
-    ratio === "21:9" ? "aspect-[21/9]" : ratio === "4:3" ? "aspect-[4/3]" : "aspect-video";
+  const dims = RATIO_DIMS[ratio];
 
   return (
     <div
       ref={containerRef}
-      className={`relative ${aspect} w-full overflow-hidden rounded-lg border border-border bg-primary`}
+      className={`relative ${dims.cls} w-full overflow-hidden rounded-lg border border-border bg-primary`}
     >
-      <Image
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
         src={image}
         alt={alt}
-        fill
-        priority={priority}
-        sizes="(max-width: 768px) 100vw, 1100px"
-        className="object-cover"
+        width={dims.w}
+        height={dims.h}
+        loading={priority ? "eager" : "lazy"}
+        fetchPriority={priority ? "high" : "auto"}
+        decoding="async"
+        className="absolute inset-0 w-full h-full object-cover"
       />
       {video && shouldRenderVideo && (
         <video

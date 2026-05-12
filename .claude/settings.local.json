@@ -25,7 +25,10 @@
       "Bash(curl -fsSL --ssl-no-revoke -o public/images/industry-healthcare.webp __TRACKED_VAR__/hf_20260509_121038_653381f2-d5f5-4bed-a50a-2f1b74830c1b_min.webp)",
       "Bash(curl -fsSL --ssl-no-revoke -o public/images/industry-saas.webp __TRACKED_VAR__/hf_20260509_121044_1e4afc48-ffed-4c07-94aa-58bcae5dee11_min.webp)",
       "Bash(node node_modules/typescript/bin/tsc --noEmit)",
-      "Bash(npx next *)"
+      "Bash(npx next *)",
+      "Bash(command -v ffmpeg)",
+      "Bash(command -v cwebp)",
+      "Bash(ffmpeg -y -hide_banner -loglevel error -i process-reel.mp4 -vf \"scale=854:-2\" -c:v libx264 -preset slower -crf 30 -an -movflags +faststart -pix_fmt yuv420p process-reel.tmp.mp4)"
     ]
   }
 }

@@ -67,6 +67,7 @@ export default function LocaleLayout({
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap"
         />
+        <link rel="preload" as="image" href="/images/home-hero-001.webp" fetchPriority="high" />
       </head>
       <body>
         <a

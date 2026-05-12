@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { Locale, Dictionary } from "@/lib/i18n";
@@ -14,7 +13,6 @@ export default function Hero({ locale, t }: { locale: Locale; t: Dictionary }) {
     if (typeof window === "undefined") return;
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (reduce) return;
-
     const trigger = () => setShowVideo(true);
     if (typeof window.requestIdleCallback === "function") {
       const id = window.requestIdleCallback(trigger);
@@ -45,13 +43,15 @@ export default function Hero({ locale, t }: { locale: Locale; t: Dictionary }) {
   return (
     <section ref={sectionRef} className="relative overflow-hidden">
       <div className="absolute inset-0 -z-10">
-        <Image
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
           src="/images/home-hero-001.webp"
           alt=""
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover"
+          width={1600}
+          height={894}
+          fetchPriority="high"
+          decoding="async"
+          className="absolute inset-0 w-full h-full object-cover"
         />
         {showVideo && (
           <video

@@ -6,7 +6,7 @@
 
 **Jeunesse Stores LLC is the bridge between AI capability and revenue outcomes.** We embed AI into business operations and run the marketing engines on top — so growth becomes measurable, repeatable, and global.
 
-**AR:** جونيس ستورز هي الجسر بين قدرات الذكاء الاصطناعي ونتائج الإيرادات. ندمج الذكاء الاصطناعي في عملياتك ونُشغّل محركات التسويق فوقه — ليصبح النمو قابلاً للقياس والتكرار وعالمي الأثر.
+**AR:** جينيس ستورز هي الجسر بين قدرات الذكاء الاصطناعي ونتائج الإيرادات. ندمج الذكاء الاصطناعي في عملياتك ونُشغّل محركات التسويق فوقه — ليصبح النمو قابلاً للقياس والتكرار وعالمي الأثر.
 
 ## Why us (differentiation)
 

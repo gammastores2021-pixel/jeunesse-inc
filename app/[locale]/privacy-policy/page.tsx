@@ -74,7 +74,7 @@ const COPY: Record<Locale, { sections: { h: string; p: string[] }[] }> = {
       {
         h: "١. من نحن",
         p: [
-          "تُشغّل جونيس ستورز LLC الموقع jeunesse-inc.co من مكتبيها في 418 Broadway Ste R, Albany, NY 12207, USA و425 Cowork Regus Arkan Plaza, Sheikh Zayed, Egypt. للتواصل: info@jeunesse-inc.co."
+          "تُشغّل جينيس ستورز LLC الموقع jeunesse-inc.co من مكتبيها في 418 Broadway Ste R, Albany, NY 12207, USA و425 Cowork Regus Arkan Plaza, Sheikh Zayed, Egypt. للتواصل: info@jeunesse-inc.co."
         ]
       },
       {

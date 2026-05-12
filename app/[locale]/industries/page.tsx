@@ -1,7 +1,6 @@
 import { getDictionary, isLocale, type Locale } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
 import SectionHeader from "@/components/SectionHeader";
 import FinalCTA from "@/components/FinalCTA";
 
@@ -36,14 +35,17 @@ export default function IndustriesIndex({ params }: { params: { locale: string }
               className="group block rounded-lg border border-border bg-white shadow-soft overflow-hidden
                          transition-shadow hover:shadow-[0_2px_4px_rgba(11,31,58,.08),0_16px_40px_rgba(11,31,58,.10)]"
             >
-              <div className="relative aspect-[4/3] bg-primary">
-                <Image
+              <div className="relative aspect-[4/3] bg-primary overflow-hidden">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
                   src={BANNERS[item.slug]}
                   alt={item.title}
-                  fill
-                  priority={i < 2}
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                  className="object-cover transition-transform duration-700 ease-editorial
+                  width={1600}
+                  height={1200}
+                  loading={i < 2 ? "eager" : "lazy"}
+                  fetchPriority={i < 2 ? "high" : "auto"}
+                  decoding="async"
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-editorial
                              group-hover:scale-[1.02]"
                 />
               </div>
