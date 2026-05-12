@@ -5,7 +5,7 @@ export default function OrganizationJsonLd({ locale }: { locale: Locale }) {
   const data = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Jeunesse Stores LLC",
+    name: "Jeunesse LLC",
     url: base,
     logo: `${base}/icons/logo.svg`,
     inLanguage: locale === "ar" ? "ar" : "en-US",

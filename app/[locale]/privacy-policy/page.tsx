@@ -11,7 +11,7 @@ const COPY: Record<Locale, { sections: { h: string; p: string[] }[] }> = {
       {
         h: "1. Who we are",
         p: [
-          "Jeunesse Stores LLC (\"we\", \"us\", \"our\") operates jeunesse-inc.co with offices at 418 Broadway Ste R, Albany, NY 12207, USA and 425 Cowork Regus Arkan Plaza, Sheikh Zayed, Egypt. Reach us at info@jeunesse-inc.co."
+          "Jeunesse LLC (\"we\", \"us\", \"our\") operates jeunesse-inc.co with offices at 418 Broadway Ste R, Albany, NY 12207, USA and 425 Cowork Regus Arkan Plaza, Sheikh Zayed, Egypt. Reach us at info@jeunesse-inc.co."
         ]
       },
       {
@@ -74,7 +74,7 @@ const COPY: Record<Locale, { sections: { h: string; p: string[] }[] }> = {
       {
         h: "١. من نحن",
         p: [
-          "تُشغّل جينيس ستورز LLC الموقع jeunesse-inc.co من مكتبيها في 418 Broadway Ste R, Albany, NY 12207, USA و425 Cowork Regus Arkan Plaza, Sheikh Zayed, Egypt. للتواصل: info@jeunesse-inc.co."
+          "تُشغّل جينيس LLC الموقع jeunesse-inc.co من مكتبيها في 418 Broadway Ste R, Albany, NY 12207, USA و425 Cowork Regus Arkan Plaza, Sheikh Zayed, Egypt. للتواصل: info@jeunesse-inc.co."
         ]
       },
       {

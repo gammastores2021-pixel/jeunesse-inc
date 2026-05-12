@@ -1,9 +1,9 @@
 export const en = {
   meta: {
-    siteName: "Jeunesse Stores LLC",
+    siteName: "Jeunesse LLC",
     tagline: "AI transformation and integrated marketing.",
     description:
-      "Jeunesse Stores LLC embeds AI into business operations and runs the marketing engines on top. Strategy, branding, execution, and analytics — under one accountable team.",
+      "Jeunesse LLC embeds AI into business operations and runs the marketing engines on top. Strategy, branding, execution, and analytics — under one accountable team.",
     keywords:
       "AI transformation, AI consulting, marketing agency, performance marketing, branding, affiliate marketing, MENA, US, Egypt"
   },
@@ -30,7 +30,7 @@ export const en = {
   home: {
     eyebrow: "AI × Marketing",
     h1: "AI that runs the business. Marketing that compounds.",
-    sub: "Jeunesse Stores LLC embeds AI into your operations and runs the marketing engines on top — so growth becomes measurable, repeatable, and global.",
+    sub: "Jeunesse LLC embeds AI into your operations and runs the marketing engines on top — so growth becomes measurable, repeatable, and global.",
     pillarsTitle: "What we do, end-to-end",
     pillarsLead:
       "We replace the patchwork of agencies and tools with one accountable team — strategy through execution.",
@@ -160,10 +160,10 @@ export const en = {
     requestAccess: "Request access to private case studies"
   },
   about: {
-    h1: "About Jeunesse Stores LLC",
+    h1: "About Jeunesse LLC",
     lead: "We are a cross-border team of strategists, engineers, and creatives.",
     body: [
-      "Jeunesse Stores LLC was founded to close the gap between AI capability and revenue outcomes. We build the systems, run the campaigns, and document the playbooks — so the work lives in the business, not in a deck.",
+      "Jeunesse LLC was founded to close the gap between AI capability and revenue outcomes. We build the systems, run the campaigns, and document the playbooks — so the work lives in the business, not in a deck.",
       "We operate from Albany, New York and Sheikh Zayed, Egypt, serving B2B and B2C clients across North America, the Gulf, and the Levant."
     ],
     valuesTitle: "How we operate",
@@ -192,7 +192,7 @@ export const en = {
       company: "Company",
       phone: "Phone (optional)",
       message: "How can we help?",
-      consent: "I agree to the privacy policy and to be contacted by Jeunesse Stores LLC."
+      consent: "I agree to the privacy policy and to be contacted by Jeunesse LLC."
     },
     success: "Thank you. A senior strategist will respond within one business day.",
     error: "Something went wrong. Please email info@jeunesse-inc.co.",

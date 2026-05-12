@@ -66,7 +66,7 @@ export default function Footer({ locale, t }: { locale: Locale; t: Dictionary })
 
       <div className="hairline">
         <div className="container-wide py-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs text-mute">
-          <p>© {year} Jeunesse Stores LLC. {t.footer.rights}</p>
+          <p>© {year} Jeunesse LLC. {t.footer.rights}</p>
           <div className="flex flex-wrap gap-x-6 gap-y-2">
             <Link href={`/${locale}/privacy-policy`} className="hover:text-primary">
               {locale === "ar" ? "الخصوصية" : "Privacy"}

@@ -4,15 +4,15 @@ import "../styles/globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://jeunesse-inc.co"),
   title: {
-    default: "Jeunesse Stores LLC — AI Transformation & Integrated Marketing",
-    template: "%s · Jeunesse Stores LLC"
+    default: "Jeunesse LLC — AI Transformation & Integrated Marketing",
+    template: "%s · Jeunesse LLC"
   },
   description:
-    "Jeunesse Stores LLC embeds AI into business operations and runs the marketing engines on top.",
-  applicationName: "Jeunesse Stores LLC",
-  authors: [{ name: "Jeunesse Stores LLC" }],
-  creator: "Jeunesse Stores LLC",
-  publisher: "Jeunesse Stores LLC",
+    "Jeunesse LLC embeds AI into business operations and runs the marketing engines on top.",
+  applicationName: "Jeunesse LLC",
+  authors: [{ name: "Jeunesse LLC" }],
+  creator: "Jeunesse LLC",
+  publisher: "Jeunesse LLC",
   formatDetection: { email: false, address: false, telephone: false },
   icons: {
     icon: [

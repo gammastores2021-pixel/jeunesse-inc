@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Jeunesse Stores LLC",
+    name: "Jeunesse LLC",
     short_name: "Jeunesse",
     description: "AI transformation and integrated marketing.",
     start_url: "/en",

@@ -16,7 +16,7 @@ const COPY: Record<Locale, { sections: { h: string; p: string[] }[] }> = {
       {
         h: "2. Services",
         p: [
-          "The site describes Jeunesse Stores LLC's services. Specific engagements are governed by a separate written services agreement (SOW or MSA)."
+          "The site describes Jeunesse LLC's services. Specific engagements are governed by a separate written services agreement (SOW or MSA)."
         ]
       },
       {
@@ -28,7 +28,7 @@ const COPY: Record<Locale, { sections: { h: string; p: string[] }[] }> = {
       {
         h: "4. Intellectual property",
         p: [
-          "All site content is owned by Jeunesse Stores LLC or its licensors. You may not copy, modify, or distribute it without permission."
+          "All site content is owned by Jeunesse LLC or its licensors. You may not copy, modify, or distribute it without permission."
         ]
       },
       {
@@ -40,7 +40,7 @@ const COPY: Record<Locale, { sections: { h: string; p: string[] }[] }> = {
       {
         h: "6. Disclaimers and liability",
         p: [
-          "The site is provided \"as is\" without warranties to the extent permitted by law. To the maximum extent permitted, Jeunesse Stores LLC's aggregate liability arising from your use of the site is limited to USD 100."
+          "The site is provided \"as is\" without warranties to the extent permitted by law. To the maximum extent permitted, Jeunesse LLC's aggregate liability arising from your use of the site is limited to USD 100."
         ]
       },
       {
@@ -60,12 +60,12 @@ const COPY: Record<Locale, { sections: { h: string; p: string[] }[] }> = {
           "تحكم هذه الشروط استخدامك لموقع jeunesse-inc.co. باستخدام الموقع فإنك توافق على هذه الشروط. إن لم توافق، فلا تستخدم الموقع."
         ]
       },
-      { h: "٢. الخدمات", p: ["يصف الموقع خدمات جينيس ستورز. تحكم المشاريعَ اتفاقياتٌ مكتوبة منفصلة."] },
+      { h: "٢. الخدمات", p: ["يصف الموقع خدمات جينيس. تحكم المشاريعَ اتفاقياتٌ مكتوبة منفصلة."] },
       {
         h: "٣. لا ضمان للنتائج",
         p: ["تعتمد نتائج الذكاء الاصطناعي والتسويق على عوامل خارج سيطرتنا. لا نضمن نتائج محدّدة."]
       },
-      { h: "٤. الملكية الفكرية", p: ["محتوى الموقع ملك لجينيس ستورز أو لمرخّصيها. ممنوع نسخه أو تعديله بدون إذن."] },
+      { h: "٤. الملكية الفكرية", p: ["محتوى الموقع ملك لجينيس أو لمرخّصيها. ممنوع نسخه أو تعديله بدون إذن."] },
       { h: "٥. الاستخدام المقبول", p: ["ممنوع تعطيل الموقع أو سحبه آليًا أو إرسال محتوى غير قانوني."] },
       {
         h: "٦. إخلاء المسؤولية",

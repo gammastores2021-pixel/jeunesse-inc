@@ -60,7 +60,7 @@ export default function Header({ locale, t }: Props) {
       )}
     >
       <div className="container-wide flex items-center justify-between py-4">
-        <Link href={`/${locale}`} aria-label="Jeunesse Stores LLC" className="flex items-center gap-3">
+        <Link href={`/${locale}`} aria-label="Jeunesse LLC" className="flex items-center gap-3">
           <Logo />
         </Link>
 

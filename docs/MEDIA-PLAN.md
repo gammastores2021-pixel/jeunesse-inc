@@ -1,4 +1,4 @@
-# Higgsfield Media Plan — Jeunesse Stores LLC
+# Higgsfield Media Plan — Jeunesse LLC
 
 All assets are decorative. No logos, statistics, or quotes are baked into images or video.
 

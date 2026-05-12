@@ -1,12 +1,12 @@
-# Brand Strategy — Jeunesse Stores LLC
+# Brand Strategy — Jeunesse LLC
 
 > One-pager you can hand to any new collaborator. Long-form details live in the website copy itself.
 
 ## Positioning
 
-**Jeunesse Stores LLC is the bridge between AI capability and revenue outcomes.** We embed AI into business operations and run the marketing engines on top — so growth becomes measurable, repeatable, and global.
+**Jeunesse LLC is the bridge between AI capability and revenue outcomes.** We embed AI into business operations and run the marketing engines on top — so growth becomes measurable, repeatable, and global.
 
-**AR:** جينيس ستورز هي الجسر بين قدرات الذكاء الاصطناعي ونتائج الإيرادات. ندمج الذكاء الاصطناعي في عملياتك ونُشغّل محركات التسويق فوقه — ليصبح النمو قابلاً للقياس والتكرار وعالمي الأثر.
+**AR:** جينيس هي الجسر بين قدرات الذكاء الاصطناعي ونتائج الإيرادات. ندمج الذكاء الاصطناعي في عملياتك ونُشغّل محركات التسويق فوقه — ليصبح النمو قابلاً للقياس والتكرار وعالمي الأثر.
 
 ## Why us (differentiation)
 
@@ -57,7 +57,7 @@ Tertiary: **Email Us** / **راسلنا**
 - Accent: bronze `#C9A35B`
 - Surface: warm white `#F7F6F2`
 - Type: Inter (UI EN) + Fraunces (display EN) + IBM Plex Sans Arabic (UI + display AR)
-- Logo: Jeunesse · Stores wordmark with bronze hairline mark.
+- Logo: Jeunesse wordmark with bronze hairline mark.
 
 ## Conversion flows
 

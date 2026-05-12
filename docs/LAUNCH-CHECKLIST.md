@@ -1,10 +1,10 @@
-# Launch Checklist — Jeunesse Stores LLC
+# Launch Checklist — Jeunesse LLC
 
 Use as a gate. Nothing ships until every box is checked, owner signed, date logged.
 
 ## 1. Content & accuracy
 
-- [ ] Company legal name spelled exactly as **Jeunesse Stores LLC**, in EN and AR.
+- [ ] Company legal name spelled exactly as **Jeunesse LLC**, in EN and AR.
 - [ ] **US HQ** address, phone, and ZIP verified: `418 Broadway Ste R, Albany, NY 12207 · +1 (405) 544-4440`.
 - [ ] **Egypt office** verified: `425 Cowork Regus Arkan Plaza, Sheikh Zayed · +20 111 751 1172`.
 - [ ] `info@jeunesse-inc.co` resolves; SPF + DKIM + DMARC records pass.

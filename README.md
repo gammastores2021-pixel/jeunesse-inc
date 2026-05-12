@@ -1,6 +1,6 @@
-# Jeunesse Stores LLC — Marketing Site
+# Jeunesse LLC — Marketing Site
 
-Premium, bilingual (EN / AR) marketing site for **Jeunesse Stores LLC** — AI business transformation and integrated marketing.
+Premium, bilingual (EN / AR) marketing site for **Jeunesse LLC** — AI business transformation and integrated marketing.
 
 - **US HQ:** 418 Broadway Ste R, Albany, NY 12207, USA · +1 (405) 544-4440
 - **Egypt Office:** 425 Cowork Regus Arkan Plaza, Sheikh Zayed, Egypt · +20 111 751 1172
@@ -122,4 +122,4 @@ See [`docs/LAUNCH-CHECKLIST.md`](docs/LAUNCH-CHECKLIST.md).
 
 ## License
 
-© Jeunesse Stores LLC. All rights reserved.
+© Jeunesse LLC. All rights reserved.
